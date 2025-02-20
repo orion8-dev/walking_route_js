@@ -1,0 +1,40 @@
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    background-color: #F49C2D;
+    width: 100vw;
+    height: 3rem;
+    margin-bottom: -20px;
+}
+
+#ZMap {
+    width: 95vw;
+    height: 90vh;
+    margin: auto;
+}
+
+#info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 95vw;
+    height: 90vh;
+    margin: auto;
+}
+
+#liveToastBtn {
+    position: absolute;
+    border-radius: 0px 0px 50px 0px;
+    z-index: 3;
+}
+
+.list-group {
+    z-index: 1;
+    position: absolute;
+    margin: 100px 5px 0px 10px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
